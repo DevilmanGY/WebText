@@ -36,6 +36,8 @@ public class MainActivity extends AppCompatActivity {
                 Message message = new Message();
                 message.obj = response;
                 handler.sendMessage(message);
+
+
             }
 
             @Override
